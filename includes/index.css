@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+}
+
+body {
+	background: linear-gradient(to top, #ffe4e1 0%, #fffafa 100%);
+
+
+}
+
+
+footer {
+	text-align: center;
+}
+
+small>a {
+	color: #FF7256;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: 
+	" header header header "
+	" section section section "
+	" article article article" 
+	" aside aside aside"
+	" footer footer footer " ;
+	grid-gap: 5px;
+}
+
+.header {
+	grid-area: header;
+	background: linear-gradient(to top left, #fffafa 0%, #ffe4e1 100%);
+}
+
+
+.section {
+	grid-area: section;
+}
+
+.article {
+	grid-area: article;
+}
+
+.aside {
+	grid-area: aside;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.logo {
+	grid-area: logo;
+	color: white;
+	justify-self: center;
+}
+
+.hOne {
+	grid-area: hOne;
+	text-align: center;
+	justify-self: center;
+	align-self: center;
+}
+
+form {
+	display: block;
+	text-align: center;
+}
+
+form input {
+	width: 50%;
+}
+
+input[type=text], input[type=email], input[type=password] {
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+input[type=submit] {
+	width: 50%;
+	height: 5rem;
+	border-radius: 2rem;
+	background-color: mistyrose;
+	outline: none;
+}
+
+h3 {
+	text-align: center;
+}
+
+.hGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: 
+	". ."
+	"logo hOne"
+	". .";
+}
+
+
+.Cgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: 
+	" header header "
+	" section section "
+	" footer footer " ;
+	grid-gap: 10px;
+}
+
+input.cForm, textarea.cForm, input[type=submit].cForm {
+	width: 100%;
+}
+
+input[type=submit].contact {
+	background-color: green;
+	width: 25%;
+	height: 3rem;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+	.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: 
+	". header header ."
+	". aside section ." 
+	". aside article ."
+	". footer footer ." ;
+}
+}
