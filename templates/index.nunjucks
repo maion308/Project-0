@@ -15,8 +15,8 @@
 	<div class="grid">
 		<header class="header">
 		<h3>
-			<a href="index.html">Home</a>
-			<a href="inventory.in.html">Inventory</a>
+			<a href="index">Home</a>
+			<a href="inventory">Inventory</a>
 		</h3>
 		<section class="section">
 			
@@ -57,7 +57,7 @@ Sun | Coast <i class="fab fa-digital-ocean"></i>
 				<a href="http://www.twitter.com"> <i class="fab fa-twitter"></i></a>
 				<a href="#"> <i class="fab fa-facebook"></i></a>
 				Contact us: 
-				<a href="contact-us.html"> <i class="fa fa-address-book"></i></a>
+				<a href="contact-us"> <i class="fa fa-address-book"></i></a>
 			</p>
 		</section>
 		    <small>Created by: Michael Ion<br>

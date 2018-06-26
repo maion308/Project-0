@@ -2,6 +2,8 @@ var express = require('express');
 var path = require('path');
 const app = express();
 var nunjucks = require('nunjucks');
+const mongodb = require('mongodb');
+const mongoClient = mongodb.MongoClient;
 var bodyParser = require('body-parser');
 
 nunjucks.configure('templates', {

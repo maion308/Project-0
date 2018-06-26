@@ -23,12 +23,13 @@
     <ul id="items" class="list-group">    
     </ul>
 
+</div>
+<script type="text/javascript" src="includes/app.js"></script>
 {% endblock %}
 
 
 
-</div>
-<script type="text/javascript" src="includes/app.js"></script>
+
 
 </body>
 </html>
