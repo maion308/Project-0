@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Sun | Coast</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="bookstore project">
+	<meta name="author" content="Michael Ion">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="includes/index.css">
+	</head>
+<body>
+{% extends 'index.nunjucks' %}
+
+{% block main %}
+<section class="section">
+		<h3>Contact Us!</h3><br>
+		<form><fieldset>
+			<input class="cForm"  type="text" name="fname" placeholder="fName"><br>			
+			<input class="cForm"  type="text" name="lname" placeholder="lName"><br>
+			<input class="cForm"  type="email" name="email" placeholder="E-mail Address"><br>
+			<textarea class="cForm" rows="5" cols="50" placeholder="enter your inquiry here..."></textarea><br>
+			<input class="cForm" type="submit" name="submit" value="submit">
+			</fieldset>
+		</form>
+	</section>
+
+{% endblock %}
+
+
+
+<script type="text/javascript" src="includes/app.js"></script>
+
+</div>
+</body>
+</html>

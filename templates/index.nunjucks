@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Sun | Coast</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="bookstore project">
+	<meta name="author" content="Michael Ion">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+<body>
+{% block header %}
+	<div class="grid">
+		<header class="header">
+		<h3>
+			<a href="index.html">Home</a>
+			<a href="inventory.in.html">Inventory</a>
+		</h3>
+		<section class="section">
+			
+		</section>
+		<section class="section">
+			<h1 class=""><i class="far fa-sun"></i> 
+Sun | Coast <i class="fab fa-digital-ocean"></i>
+
+</h1>
+		</section>
+		<section class="section">
+			
+		</section>
+		</header>
+		{% endblock %}
+		{% block main %}
+	<section class="section">
+		<h3>Sign up now!</h3><br>
+		<form action="inventory.in.html"><fieldset>
+			<input  type="text" name="fname" placeholder="fName"><br>			
+			<input  type="text" name="lname" placeholder="lName"><br>
+			<input  type="email" name="email" placeholder="E-mail Address"><br>
+			<input  type="password" name="password" placeholder="Password"><br>
+			<input type="submit" name="submit" value="submit">
+			</fieldset>
+		</form>
+	</section>
+
+	<aside class="aside">
+		
+	</aside>
+	{% endblock %}
+	{% block footer %}
+	<footer class="footer">
+		<section>
+			<p>
+				Follow us:
+				<a href="http://www.twitter.com"> <i class="fab fa-twitter"></i></a>
+				<a href="#"> <i class="fab fa-facebook"></i></a>
+				Contact us: 
+				<a href="contact-us.html"> <i class="fa fa-address-book"></i></a>
+			</p>
+		</section>
+		    <small>Created by: Michael Ion<br>
+		   	Address:11730 Plaza American Drive #205<br>
+			Reston, VA 20190<br>
+			Contact: <a href="#">&#109; &#105; &#99; &#104; &#97; &#101; &#108; &#46; &#105; &#111; &#110; &#46; &#109; &#105; &#64; &#111; &#117; &#116; &#108; &#111; &#111; &#107; &#46; &#99; &#111; &#109;</a>
+			</small>		
+	</footer>
+	</div>
+	{% endblock %}
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
